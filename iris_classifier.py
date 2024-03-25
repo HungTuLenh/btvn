@@ -23,4 +23,4 @@ clf.fit(X_train, y_train)
 print(clf.score(X_test, y_test))
 
 print("Saving model to pickle file.")
-pickle.dump(clf, open("C:/Users/PV/thpy/iris_model.pkl", 'wb'))
+pickle.dump(clf, open("Iris classifier/iris_model.pkl", 'wb'))
